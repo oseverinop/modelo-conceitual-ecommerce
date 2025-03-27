@@ -1,24 +1,33 @@
 # Desafio DIO: Refinando um Projeto Conceitual de Banco de Dados – E-COMMERCE
 
-#Descrição do Desafio de Projeto
-"A partir da modelagem de um cenário reduzido de e-commerce junto com a instrutora Juliana Mascarenhas foi proposto um desafio de refinar o modelo conceitual e acrescentar mais elementos ao cenário"
+## Descrição do Projeto
+Este desafio tem como base a modelagem de um cenário reduzido de e-commerce, desenvolvida em colaboração com a instrutora Juliana Mascarenhas. O objetivo é **refinar o modelo conceitual** apresentado e **acrescentar novos elementos ao cenário**.
 
-#Instrutora: 
-Juliana Mascarenhas
+## Instrutora
+- [Juliana Mascarenhas](#)
 
-#Objetivo:
-Refinar o modelo apresentado no desafio acrescentando os seguintes pontos:
-- Cliente PJ e PF – Uma conta pode ser PJ ou PF, mas não pode ter as duas informações;
-- Pagamento – Pode ter cadastrado mais de uma forma de pagamento;
-- Entrega – Possui status e código de rastreio;
+## Objetivo
+Refinar o modelo proposto com os seguintes ajustes:
+- **Cliente PJ e PF:** Uma conta pode ser Pessoa Jurídica (PJ) ou Pessoa Física (PF), mas não pode ter ambas informações;
+- **Pagamento:** Permitir o cadastro de mais de uma forma de pagamento;
+- **Entrega:** Incluir status e código de rastreio.
 
-#Ferramentas utilizadas
-MySQL Workbench
+## Ferramentas Utilizadas
+- MySQL Workbench
 
-#Respostas do Desafio
+## Resposta do Desafio
+O modelo refinado pode ser visualizado [aqui](https://github.com/oseverinop/modelo-conceitual-ecommerce/blob/main/Modelo%20Conceitual%20Refinado.png).
 
+## Comentários sobre o Modelo
+- **Cliente:** Foram criadas duas entidades distintas para representar os tipos de cliente com seus dados específicos: Pessoa Jurídica e Pessoa Física.
+- **Pagamento:** Três entidades foram adicionadas para representar diferentes formas de pagamento com dados específicos: PIX, Cartão e Boleto.
+- **Entrega:** A entidade Entrega foi estruturada para armazenar informações de envio detalhadas como:
+  - Data do pedido;
+  - Data de envio;
+  - Data de entrega.
 
-#Comentários sobre a resposta:
-Vinculadas a entidade Cliente foram criadas duas entidades para representar os tipos de cliente com seus dados específicos: Pessoa Juridica e Pessoa Fisica.
-Vinculadas a entida Pagamento foram criadas três entidades para representar as formas de pagamento com seus dados específicos: PIX, Cartão e Boleto.
-A entidade Entrega foi criada para armazenar as informações de envio de cada pedido detalhar como data do pedido, data de envio e data de entrega.
+![Modelo Conceitual Refinado](https://github.com/oseverinop/modelo-conceitual-ecommerce/blob/main/Modelo%20Conceitual%20Refinado.png)
+
+---
+
+> Este projeto foi desenvolvido como parte do bootcamp da DIO - Heineken - Inteligência Artificial Aplicada a Dados com Copilot, e é um excelente exemplo de aplicação prática de conceitos de modelagem de banco de dados.
