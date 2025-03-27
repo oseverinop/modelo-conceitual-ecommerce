@@ -16,7 +16,8 @@ Refinar o modelo proposto com os seguintes ajustes:
 - MySQL Workbench
 
 ## Resposta do Desafio
-O modelo refinado pode ser visualizado [aqui](https://github.com/oseverinop/modelo-conceitual-ecommerce/blob/main/Modelo%20Conceitual%20Refinado.png).
+O modelo refinado pode ser visualizado abaixo:
+![Modelo Conceitual Refinado](https://github.com/oseverinop/modelo-conceitual-ecommerce/blob/main/Modelo%20Conceitual%20Refinado.png)
 
 ## Comentários sobre o Modelo
 - **Cliente:** Foram criadas duas entidades distintas para representar os tipos de cliente com seus dados específicos: Pessoa Jurídica e Pessoa Física.
@@ -25,8 +26,6 @@ O modelo refinado pode ser visualizado [aqui](https://github.com/oseverinop/mode
   - Data do pedido;
   - Data de envio;
   - Data de entrega.
-
-![Modelo Conceitual Refinado](https://github.com/oseverinop/modelo-conceitual-ecommerce/blob/main/Modelo%20Conceitual%20Refinado.png)
 
 ---
 
